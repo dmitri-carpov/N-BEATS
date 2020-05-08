@@ -1,6 +1,8 @@
 # N-BEATS
 
-Implementation of https://arxiv.org/pdf/1905.10437.pdf
+This repo provides an implementation of the N-BEATS algorithm introduced in
+https://arxiv.org/abs/1905.10437 and enables reproducing the experimental
+results presented in the paper.
 
 N-BEATS is a neural-network based model for univariate timeseries forecasting.
 
@@ -114,15 +116,18 @@ calculation works as expected you can run test.
  
 ## Citation
 
+If you use N-BEATS in any context, please cite the following paper:
+
 ```
 @inproceedings{
-Oreshkin2020N-BEATS:,
-title={N-BEATS: Neural basis expansion analysis for interpretable time series forecasting},
-author={Boris N. Oreshkin and Dmitri Carpov and Nicolas Chapados and Yoshua Bengio},
-booktitle={International Conference on Learning Representations},
-year={2020},
-url={https://openreview.net/forum?id=r1ecqn4YwB}
+  Oreshkin2020:N-BEATS,
+  title={{N-BEATS}: Neural basis expansion analysis for interpretable time series forecasting},
+  author={Boris N. Oreshkin and Dmitri Carpov and Nicolas Chapados and Yoshua Bengio},
+  booktitle={International Conference on Learning Representations},
+  year={2020},
+  url={https://openreview.net/forum?id=r1ecqn4YwB}
 }
 ```
 
-This is a collaborative work between Element AI and MILA. Please cite the paper if you use this model or the code.
+This is a collaborative work between [Element AI](https://www.elementai.com) and [Mila](https://www.mila.quebec).
+Please cite the paper if you use this model or the code.
